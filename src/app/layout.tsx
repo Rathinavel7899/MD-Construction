@@ -30,7 +30,7 @@ export default function RootLayout({
       <body>
         {children}
         <a
-          href="https://wa.me/919876543210?text=Hi%20sir"
+          href="https://wa.me/919943019230?text=Hi%20sir"
           target="_blank"
           rel="noopener noreferrer"
           style={{

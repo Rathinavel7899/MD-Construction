@@ -7,7 +7,7 @@ export default function Home() {
         <a href="/" className="logo">
           <span style={{color: 'var(--gold)'}}>MDC</span> | MD CONSTRUCTIONS
         </a>
-        <a href="#inquire" className="btn-inquire">Inquire</a>
+        <a href="#inquire" className="btn-inquire">Enquiry</a>
       </nav>
 
       <main>
@@ -18,75 +18,6 @@ export default function Home() {
             <h2>"Engineer your dreams with us"</h2>
             <p>We combine rhythmic craftsmanship of ancient tradition with the surgical precision of modern engineering to build monuments that stand the test of time.</p>
             <a href="#projects" className="btn-inquire" style={{ display: "inline-block" }}>Explore Projects</a>
-          </div>
-        </section>
-
-        {/* Hero Section / Intro */}
-        <section className="section container split-section">
-          <div>
-            <span className="subtitle-gold">Connect With Our Legacy</span>
-            <h1 className="hero-title">Let's Weave Your Future</h1>
-            <p className="hero-desc">Whether you are conceptualizing a contemporary monument or restoring a traditional landmark, our architectural weavers are ready to assist.</p>
-            
-            {/* Social / Contact Icons */}
-            <div className="social-contact-bar">
-              <a href="tel:+919876543210" className="social-contact-item" aria-label="Call us">
-                <span className="social-contact-icon phone-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                  </svg>
-                </span>
-              </a>
-
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="social-contact-item" aria-label="Facebook">
-                <span className="social-contact-icon facebook-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
-                  </svg>
-                </span>
-              </a>
-
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-contact-item" aria-label="Instagram">
-                <span className="social-contact-icon instagram-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-                  </svg>
-                </span>
-              </a>
-            </div>
-
-            <div className="message-box" id="inquire">
-              <h2>Send a Message</h2>
-              <form>
-                <div className="form-group">
-                  <label htmlFor="name">Name</label>
-                  <input type="text" id="name" className="form-input" placeholder="Your Name" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">Email</label>
-                  <input type="email" id="email" className="form-input" placeholder="your@email.com" />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="message">Message</label>
-                  <textarea id="message" className="form-textarea" placeholder="Tell us about your architectural vision..."></textarea>
-                </div>
-                <button type="button" className="btn-submit">
-                  Send Inquiry <span>→</span>
-                </button>
-              </form>
-            </div>
-          </div>
-          
-          <div>
-            <div className="info-box mb-4">
-              <span className="subtitle-gold" style={{ color: "var(--primary-color)" }}>Headquarters</span>
-              <h3 className="mb-2">MD CONSTRUCTIONS</h3>
-              <p className="mb-2">Opp to Pachaiyappa's Men's College,<br/>Kanchipuram - 631501</p>
-              <p className="mb-2"><b>Er. K. Mithran</b><br/>+91 9943019230</p>
-              <p>Kanchipuram Civil Engineers Association - EC</p>
-            </div>
           </div>
         </section>
 
@@ -182,6 +113,75 @@ export default function Home() {
            </div>
         </section>
       </main>
+
+        {/* Hero Section / Intro */}
+        <section className="section container split-section">
+          <div>
+            <span className="subtitle-gold">Connect With Our Legacy</span>
+            <h1 className="hero-title">Let's Weave Your Future</h1>
+            <p className="hero-desc">Whether you are conceptualizing a contemporary monument or restoring a traditional landmark, our architectural weavers are ready to assist.</p>
+            
+            {/* Social / Contact Icons */}
+            <div className="social-contact-bar">
+              <a href="tel:+919943019230" className="social-contact-item" aria-label="Call us">
+                <span className="social-contact-icon phone-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </span>
+              </a>
+{/* 
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="social-contact-item" aria-label="Facebook">
+                <span className="social-contact-icon facebook-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                  </svg>
+                </span>
+              </a> */}
+
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-contact-item" aria-label="Instagram">
+                <span className="social-contact-icon instagram-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                  </svg>
+                </span>
+              </a>
+            </div>
+
+            <div className="message-box" id="inquire">
+              <h2>Send a Message</h2>
+              <form>
+                <div className="form-group">
+                  <label htmlFor="name">Name</label>
+                  <input type="text" id="name" className="form-input" placeholder="Your Name" />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="email">Email</label>
+                  <input type="email" id="email" className="form-input" placeholder="your@email.com" />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message">Message</label>
+                  <textarea id="message" className="form-textarea" placeholder="Tell us about your architectural vision..."></textarea>
+                </div>
+                <button type="button" className="btn-submit">
+                 Enquiry <span>→</span>
+                </button>
+              </form>
+            </div>
+          </div>
+          
+          <div>
+            <div className="info-box mb-4">
+              <span className="subtitle-gold" style={{ color: "var(--primary-color)" }}>Office Address</span>
+              <h3 className="mb-2">MD CONSTRUCTIONS</h3>
+              <p className="mb-2">No. 12, Gandhi Road,<br/>Kanchipuram - 631501,<br/>Tamil Nadu, India</p>
+              <p className="mb-2"><b>Er. K. Mithran</b><br/>+91 9943019230</p>
+              <p>Kanchipuram Civil Engineers Association - EC</p>
+            </div>
+          </div>
+        </section>
 
       <footer className="footer">
         <h3>MD CONSTRUCTIONS</h3>
